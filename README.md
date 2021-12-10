@@ -19,7 +19,7 @@ npm i
 
 ## Usage <br />
 After installing, enter command 'npm start' to invoke the application and start the server.
-[walkthrough video](#https://watch.screencastify.com/v/5V8KbNM2V9H38Pe6JP2s)
+[Walkthrough video](https://watch.screencastify.com/v/5V8KbNM2V9H38Pe6JP2s)
 
 
 
