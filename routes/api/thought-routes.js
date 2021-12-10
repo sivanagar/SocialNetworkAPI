@@ -28,3 +28,6 @@ router
 // router
 //   .route('/:thoughtId/reactions/:reactionId')
 //   .delete() // delete reaction
+
+
+module.exports = router;

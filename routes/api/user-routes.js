@@ -23,3 +23,5 @@ router
 //   .route('/:userId/friends/:friendId')
 //   .post() //add a new friend
 //   .delete() //delete a friend
+
+module.exports = router;

@@ -38,7 +38,7 @@ getUserById({params}, res) {
 },
 //create User
 createUser({body}, res) {
-  User.create(body, res)
+  User.create(body)
     .then(dbUserData => res.json(dbUserData))
     .catch(err => res.status(400).json);
 },
@@ -62,10 +62,10 @@ deleteUser({params}, res) {
         res.status(404).json({message: 'No user found with this id.'});
         return;
       }
-      res.json(dbUserDate);
+      res.json(dbUserData);
     })
     .catch(err => res.status(400).json(err));
 }
 };
 
-module.exports = UserController;
+module.exports = userController;
